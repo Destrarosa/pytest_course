@@ -46,7 +46,7 @@ def test_checkout():
     code_field.send_keys("248000")
     time.sleep(3)
 
-    button_continue= driver.find_element(By.CSS_SELECTOR, 'input[data-test="continue"]')
+    button_continue = driver.find_element(By.CSS_SELECTOR, 'input[data-test="continue"]')
     button_continue.click()
     time.sleep(3)
 
